@@ -76,3 +76,20 @@
 .price-ouro h1 {
   color: var(--color-p5);
 }
+
+@media screen and (max-width: 877px) {
+  .prices {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .price  {
+    padding: 32px;
+    border-radius: 5px;
+    background: var(--color-c12);
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+}
