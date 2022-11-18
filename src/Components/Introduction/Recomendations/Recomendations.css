@@ -1,0 +1,36 @@
+.section-recomendation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 680px;
+}
+
+.section-recomendation-left img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.section-recomendation-right {
+  background: var(--color-p5);
+  padding: 80px;
+  display: flex;
+}
+
+.testmony{
+  align-self: end;
+  max-width: 553px;
+}
+
+.section-recomendation-right h1 {
+  font-family: 'Merriweather';
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--color-p1);
+  padding-bottom: 32px;
+  position: relative;
+
+}
+
+.section-recomendation-right p {
+  font-weight: 500;
+  color: var(--color-p2);
+}

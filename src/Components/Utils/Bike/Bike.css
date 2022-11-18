@@ -1,0 +1,42 @@
+.bike {
+  width: 460px;
+  height: 610px;
+
+  border-radius: 5px;
+}
+
+.bike h1 {
+  color: var(--color-c11);
+  padding-top: 1rem;
+  padding-bottom: 8px;
+}
+
+.bike img {
+  border-radius: 5px;
+}
+
+.bike h1::before {
+  transition: 0.6s ease;
+  content: '';
+  height: 8px;
+  width: 12px;
+  display: inline-block;
+  position: relative;
+  bottom: 8px;
+  background: var(--color-p5);
+  margin-right: 8px;
+}
+
+.bike:hover {
+  cursor: pointer;
+}
+
+.bike:hover h1::before {
+  transition: 0.6s ease;
+  width: 24px;
+}
+
+.bike p {
+  color: var(--color-c8);
+  padding-left: 20px;
+}
